@@ -1,0 +1,37 @@
+Start training Best Model
+c:\Users\Faith\miniconda3\envs\pattern\lib\site-packages\torch\nn\modules\transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(
+ConvTransformer(
+  (cnn): Sequential(
+    (0): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): ReLU()
+    (2): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (3): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (4): ReLU()
+    (5): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (fc_cnn): Linear(in_features=1600, out_features=128, bias=True)
+  (pos_encoder): PositionalEncoding()
+  (transformer_encoder): TransformerEncoder(
+    (layers): ModuleList(
+      (0-1): 2 x TransformerEncoderLayer(
+        (self_attn): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=128, out_features=128, bias=True)
+        )
+        (linear1): Linear(in_features=128, out_features=2048, bias=True)
+        (dropout): Dropout(p=0.1, inplace=False)
+        (linear2): Linear(in_features=2048, out_features=128, bias=True)
+        (norm1): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+        (norm2): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+        (dropout1): Dropout(p=0.1, inplace=False)
+        (dropout2): Dropout(p=0.1, inplace=False)
+      )
+    )
+  )
+  (decoder): Sequential(
+    (0): Linear(in_features=128, out_features=64, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=64, out_features=1, bias=True)
+  )
+)
+start training the best model

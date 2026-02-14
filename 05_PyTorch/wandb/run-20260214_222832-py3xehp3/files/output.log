@@ -1,0 +1,20 @@
+Start training Best Model
+Epoch 1 train loss: 1.9128
+Epoch 1 val loss: 1.6794
+Saving new best model (Loss: 1.6794)..
+Epoch 2 train loss: 1.9087
+Epoch 2 val loss: 1.6697
+Saving new best model (Loss: 1.6697)..
+Epoch 3 train loss: 1.9106
+Epoch 3 val loss: 1.6757
+Epoch 4 train loss: 1.9107
+Epoch 4 val loss: 1.6758
+Epoch 5 train loss: 1.9268
+Epoch 5 val loss: 1.6728
+Epoch 6 train loss: 1.9097
+Epoch 6 val loss: 1.6729
+Epoch 7 train loss: 1.9161
+Epoch 7 val loss: 1.6698
+Epoch 8 train loss: 1.9111
+Epoch 8 val loss: 1.6814
+Epoch 9 train loss: 1.9094

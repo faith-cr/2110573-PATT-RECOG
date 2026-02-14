@@ -1,0 +1,53 @@
+Training epoch 1...
+Current LR: 0.01
+Epoch 1 train loss: 1.9356
+Validating epoch 1
+Epoch 1 val loss: 1.6609
+Saving new best model..
+Training epoch 2...
+Current LR: 0.01
+Epoch 2 train loss: 1.9233
+Validating epoch 2
+Epoch 2 val loss: 1.6607
+Saving new best model..
+Training epoch 3...
+Current LR: 0.01
+Epoch 3 train loss: 1.9235
+Validating epoch 3
+Epoch 3 val loss: 1.6621
+Training epoch 4...
+Current LR: 0.01
+Epoch 4 train loss: 1.9236
+Validating epoch 4
+Epoch 4 val loss: 1.6603
+Saving new best model..
+Training epoch 5...
+Current LR: 0.01
+Epoch 5 train loss: 1.9241
+Validating epoch 5
+Epoch 5 val loss: 1.6618
+Training epoch 6...
+Current LR: 0.01
+Epoch 6 train loss: 1.9235
+Validating epoch 6
+Epoch 6 val loss: 1.6607
+Training epoch 7...
+Current LR: 0.01
+Epoch 7 train loss: 1.9234
+Validating epoch 7
+Epoch 7 val loss: 1.6604
+Training epoch 8...
+Current LR: 0.002
+Epoch 8 train loss: 1.9234
+Validating epoch 8
+Epoch 8 val loss: 1.6608
+Training epoch 9...
+Current LR: 0.002
+Epoch 9 train loss: 1.9234
+Validating epoch 9
+Epoch 9 val loss: 1.6607
+Training epoch 10...
+Current LR: 0.002
+Epoch 10 train loss: 1.9235
+Validating epoch 10
+Epoch 10 val loss: 1.6610

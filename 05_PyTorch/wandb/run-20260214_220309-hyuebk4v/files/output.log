@@ -1,0 +1,23 @@
+Start training Transformer
+Epoch 1 train loss: 1.9803
+Epoch 1 val loss: 1.8491
+Saving new best Transformer model (Loss: 1.8491)..
+Epoch 2 train loss: 1.9721
+Epoch 2 val loss: 1.9220
+Epoch 3 train loss: 1.9473
+Epoch 3 val loss: 1.4420
+Saving new best Transformer model (Loss: 1.4420)..
+Epoch 4 train loss: 1.7450
+Epoch 4 val loss: 1.6797
+Epoch 5 train loss: 1.9698
+Epoch 5 val loss: 1.6764
+Epoch 6 train loss: 1.8413
+Epoch 6 val loss: 1.7161
+Epoch 7 train loss: 1.8695
+Epoch 7 val loss: 1.7828
+Epoch 8 train loss: 1.9198
+Epoch 8 val loss: 1.7637
+Epoch 9 train loss: 1.9643
+Epoch 9 val loss: 1.7510
+Epoch 10 train loss: 1.7883
+Epoch 10 val loss: 1.8692

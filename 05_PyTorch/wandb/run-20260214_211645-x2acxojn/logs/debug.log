@@ -1,0 +1,23 @@
+2026-02-14 21:16:45,552 INFO    MainThread:13372 [wandb_init.py:setup_run_log_directory():714] Logging user logs to d:\Chula\2110573-PATT-RECOG\05_PyTorch\wandb\run-20260214_211645-x2acxojn\logs\debug.log
+2026-02-14 21:16:45,553 INFO    MainThread:13372 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to d:\Chula\2110573-PATT-RECOG\05_PyTorch\wandb\run-20260214_211645-x2acxojn\logs\debug-internal.log
+2026-02-14 21:16:45,553 INFO    MainThread:13372 [wandb_init.py:init():841] calling init triggers
+2026-02-14 21:16:45,553 INFO    MainThread:13372 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'architecture': 'ConvTransformer', 'lr': 0.001, 'hidden_size': 128, 'seq_len': 5, 'epochs': 50, 'scheduler_factor': 0.5, 'scheduler_patience': 2, 'scheduler_min_lr': 1e-06, '_wandb': {}}
+2026-02-14 21:16:47,077 INFO    MainThread:13372 [wandb_init.py:init():889] starting backend
+2026-02-14 21:16:47,077 INFO    MainThread:13372 [wandb_init.py:init():892] sending inform_init request
+2026-02-14 21:16:47,081 INFO    MainThread:13372 [wandb_init.py:init():900] backend started and connected
+2026-02-14 21:16:47,084 INFO    MainThread:13372 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2026-02-14 21:16:47,247 INFO    MainThread:13372 [wandb_init.py:init():970] updated telemetry
+2026-02-14 21:16:47,276 INFO    MainThread:13372 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2026-02-14 21:16:48,144 INFO    MainThread:13372 [wandb_init.py:init():1041] starting run threads in backend
+2026-02-14 21:16:48,483 INFO    MainThread:13372 [wandb_run.py:_console_start():2521] atexit reg
+2026-02-14 21:16:48,483 INFO    MainThread:13372 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2026-02-14 21:16:48,483 INFO    MainThread:13372 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2026-02-14 21:16:48,483 INFO    MainThread:13372 [wandb_run.py:_redirect():2461] Redirects installed.
+2026-02-14 21:16:48,484 INFO    MainThread:13372 [wandb_init.py:init():1081] run started, returning control to user process
+2026-02-14 21:16:48,484 INFO    MainThread:13372 [wandb_watch.py:_watch():68] Watching
+2026-02-14 21:24:08,001 INFO    MainThread:13372 [wandb_run.py:_finish():2287] finishing run faithcr-chulalongkorn-university/precipitation-nowcasting/x2acxojn
+2026-02-14 21:24:08,001 INFO    MainThread:13372 [wandb_run.py:_atexit_cleanup():2486] got exitcode: 0
+2026-02-14 21:24:08,002 INFO    MainThread:13372 [wandb_run.py:_restore():2468] restore
+2026-02-14 21:24:08,002 INFO    MainThread:13372 [wandb_run.py:_restore():2474] restore done
+2026-02-14 21:24:09,925 INFO    MainThread:13372 [wandb_run.py:_footer_sync_info():3862] logging synced files

@@ -1,0 +1,27 @@
+2026-02-14 22:08:27,974 INFO    MainThread:13372 [wandb_init.py:setup_run_log_directory():714] Logging user logs to d:\Chula\2110573-PATT-RECOG\05_PyTorch\wandb\run-20260214_220827-9otpebrx\logs\debug.log
+2026-02-14 22:08:27,974 INFO    MainThread:13372 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to d:\Chula\2110573-PATT-RECOG\05_PyTorch\wandb\run-20260214_220827-9otpebrx\logs\debug-internal.log
+2026-02-14 22:08:27,974 INFO    MainThread:13372 [wandb_init.py:monkeypatch_ipython():633] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000018AFEB640A0>
+2026-02-14 22:08:27,974 INFO    MainThread:13372 [wandb_init.py:init():841] calling init triggers
+2026-02-14 22:08:27,974 INFO    MainThread:13372 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'architecture': 'Transformer', 'lr': 0.001, 'hidden_size': 76, 'seq_len': 5, 'epochs': 10, 'scheduler_factor': 0.5, 'scheduler_patience': 2, 'scheduler_min_lr': 1e-06, '_wandb': {}}
+2026-02-14 22:08:27,975 INFO    MainThread:13372 [wandb_init.py:init():889] starting backend
+2026-02-14 22:08:27,975 INFO    MainThread:13372 [wandb_init.py:init():892] sending inform_init request
+2026-02-14 22:08:27,977 INFO    MainThread:13372 [wandb_init.py:init():900] backend started and connected
+2026-02-14 22:08:27,981 INFO    MainThread:13372 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2026-02-14 22:08:28,186 INFO    MainThread:13372 [wandb_init.py:init():970] updated telemetry
+2026-02-14 22:08:28,221 INFO    MainThread:13372 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2026-02-14 22:08:28,914 INFO    MainThread:13372 [wandb_init.py:init():1041] starting run threads in backend
+2026-02-14 22:08:29,276 INFO    MainThread:13372 [wandb_run.py:_console_start():2521] atexit reg
+2026-02-14 22:08:29,276 INFO    MainThread:13372 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2026-02-14 22:08:29,277 INFO    MainThread:13372 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2026-02-14 22:08:29,277 INFO    MainThread:13372 [wandb_run.py:_redirect():2461] Redirects installed.
+2026-02-14 22:08:29,278 INFO    MainThread:13372 [wandb_init.py:init():1081] run started, returning control to user process
+2026-02-14 22:08:29,279 INFO    MainThread:13372 [wandb_watch.py:_watch():68] Watching
+2026-02-14 22:10:16,166 INFO    MainThread:13372 [wandb_run.py:_finish():2287] finishing run faithcr-chulalongkorn-university/precipitation-nowcasting/9otpebrx
+2026-02-14 22:10:16,167 INFO    MainThread:13372 [jupyter.py:save_history():435] not saving jupyter history
+2026-02-14 22:10:16,167 INFO    MainThread:13372 [jupyter.py:save_ipynb():359] not saving jupyter notebook
+2026-02-14 22:10:16,167 INFO    MainThread:13372 [wandb_init.py:_jupyter_teardown():618] cleaning up jupyter logic
+2026-02-14 22:10:16,167 INFO    MainThread:13372 [wandb_run.py:_atexit_cleanup():2486] got exitcode: 0
+2026-02-14 22:10:16,167 INFO    MainThread:13372 [wandb_run.py:_restore():2468] restore
+2026-02-14 22:10:16,167 INFO    MainThread:13372 [wandb_run.py:_restore():2474] restore done
+2026-02-14 22:10:17,752 INFO    MainThread:13372 [wandb_run.py:_footer_sync_info():3862] logging synced files
