@@ -4,12 +4,8 @@
 05_PyTorch/nowcastingHWdataset.tar.gz
 05_PyTorch/.cache
 
-# 06_Contrastive_Learning/large_prepared_data.zip
 06_Contrastive_Learning/__MACOSX
 06_Contrastive_Learning/large_prepared_data
-# 06_Contrastive_Learning/weights/best_infonce_weights.pth
-# 06_Contrastive_Learning/weights/best_siamese_weights.pth
-# 06_Contrastive_Learning/weights/best_triplet_weights.pth
 
 08_DDPM-LoRA_2024/data
 
